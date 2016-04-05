@@ -1,0 +1,525 @@
+html, body, div, span, li, input,em,p,button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+    font-family: "微软雅黑";
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+li {
+    list-style: none;
+}
+input {
+    -webkit-appearance: none;
+    outline: none;
+    border:0;
+}
+em {
+    font-style: normal
+}
+/*取消chrome下input和textarea的聚焦边框：*/
+input,button,select,textarea{
+    outline:none;
+    border: none}
+
+
+
+html{
+    text-align: center;/*影响到menu的布局*/
+    color: #ffffff;
+    background-color:#eceff1 ;
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    color: red;
+}
+
+.top-header{
+    position:relative;
+    z-index: 9;
+}
+
+
+/*header login log out reg*/
+
+.sign-log{
+    position:relative;
+}
+.log-wrap{
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background: #000000;
+    opacity: 0.5;
+    z-index: 100;
+    vertical-align: top;
+}
+.log-wrap-zIndex{
+    z-index: 200;
+}
+.isLog{
+    z-index: 200;
+}
+.user-reg{
+    z-index: 200;
+}
+.user-login{
+    z-index: 200;
+}
+
+
+.mai-header-show{
+}
+
+.sign-log .check-sin{
+    display: block;
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 80px;
+    position: fixed;
+    top: 16%;
+    cursor: pointer;
+    z-index: 200;
+}
+.user-account{
+    width: 100%;
+    height:86px;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    color: black;
+    top: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 1px #aaaaab;
+}
+
+.emit{
+    cursor: pointer;
+    display: block;
+    width: 150px;
+    height:50px;/*待调整*/
+    overflow: hidden;
+    position: absolute; left: 20%; top: 50%;
+    text-align: center;
+    font-size: 15px;
+    transform: translate(0%, -50%); /*垂直居中*/
+    line-height: 50px;
+}
+.username{
+    display: block;
+    width: 100px;
+    height:50px;/*待调整*/
+    overflow: hidden;
+    position: absolute; right: 20%; top: 50%;
+    transform: translate(0%, -50%); /*垂直居中*/
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+.hidden{
+    display: none;
+}
+.time-line{
+    width: 178px;
+    margin: 0 auto;
+    margin-top:49px ;
+    font-size: 10px;
+    color:#b3b3b3;
+}
+.time-line li{
+    display: inline-block;
+}
+.time-line span{
+    display: inline-block;
+}
+.time-active{
+    color: #424242;
+}
+.slash{
+    font-size: 10px;
+    color: #b3b3b3;
+}
+.slash-1{
+    margin-left:19px ;
+    margin-right:21px ;
+}
+.slash-2{
+    margin-left:23px;
+    margin-right:18px;
+}
+.slash-active{
+    color:#666666;
+}
+.menu{
+    margin-top: 48px;
+    margin-left: 40px;
+    color: #424242;
+    text-align: left;
+    cursor: pointer;
+}
+.title{
+    color:#666666;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+.title li{
+    margin-top: 20px;
+}
+
+.title-active{
+    color: #424242;
+}
+
+.sign-in{
+    text-align: right;
+    font-size: 10px;
+    margin-top: 36px;
+    margin-right: 70px;
+    color: #424242;
+    z-index: 200;
+}
+.welcome{
+    margin-top: 151px;
+}
+h1,h2{
+    text-align: center;
+    margin: 0 auto;
+    color:#444243;
+    font-size: 33px;
+
+}
+h1{
+    font-size: 33px;
+    width: 638px;
+    margin: 0 auto;
+    letter-spacing: 4px;
+}
+h2{
+    margin-top: 14px;
+    font-size: 10px;
+    width:280px ;
+}
+
+/*HEADER*/
+
+.content{
+    margin-top: 137px;
+    font-size: 10px;
+    color: #414141;
+    padding-bottom:170px ;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.post-title{
+    text-align: center;
+    margin-top: 17px;
+}
+.post{
+    padding-top: 76px;
+}
+.content img{
+    width: 668px;
+    height: 229px;
+    border: 1px solid black;
+    margin-top: 45px;
+}
+.content p{
+    margin-top:41px;
+}
+.gray-dot{
+    width: 7px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+/*FOOTER*/
+
+.footer{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid white;
+    border-bottom: none;
+    text-align: center;
+}
+.older{
+    width: 60px;
+    margin-top: 44px;
+    margin-bottom: 10px;
+    margin-right:auto;
+    margin-left: auto;
+    color:#000000;
+
+}
+.older button{
+    font-size: 25px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+}
+
+/*article*/
+
+.article-Detail{
+    color: #000000;
+}
+.article-Detail h3{
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+}
+.article-Title span{
+    font-family: Simsun;
+    font-size: 14px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.whiter-space{
+    white-space: normal;
+}
+
+/*sign*/
+
+/*sign up reg 注册 先隐藏*/
+.sign-in{
+    text-align: center;
+    position: fixed;
+    top: 25%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: black;
+}
+.sign-in input{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin:0 auto;
+    margin-top: 10px;
+    width: 220px;
+    height: 40px;
+    border-radius: 17px;
+}
+
+.sign-in .sign_in-up{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.sign_in-up:hover{
+   /* background-color: gray;*/
+    background-color:aqua;
+}
+
+
+/* sign in 这才是登陆  同样先隐藏  注册是竖着排列 登陆当然是横着排列了*/
+.log-in{
+    text-align: center;
+    position: fixed;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 200;
+}
+.log-in input{
+    width: 220px;
+    height: 40px;
+    color: black;
+    border-radius: 15px;
+    margin-right: 10px;
+   text-align: center;
+}
+
+.wrap-out .signOut-submit{
+    display: block;
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+}
+.wrap-out .signOut-submit:hover{
+   /* background-color: gray;*/
+
+    background-color: aqua;
+}
+
+.editor{
+    border: 1px solid red;
+}
+
+
+/*logout*/
+
+/*
+要消失 被点击显示*/
+.log-out button{
+    width: 100px;
+    height: 50px;
+    position: fixed;
+     right: 10%;
+    top: 1%;
+    color: black;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+/*EDITOR*/
+
+.ss{
+    display: none;
+}
+.display{
+    display: block;
+}
+.out-text{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+
+.form-control{
+    display: block;
+     width: 800px;
+     height: 900px;
+    background-color:#eceff1 ;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top:20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: left;
+
+}
+
+.container-out{
+
+}
+.con-out-pt{
+    width: 500px;
+    height: 600px;
+    color: black;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color:#eceff1 ;
+    position: absolute;
+    top:100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: left;
+
+}
+.con-out-pt{}
+
+.btn-share{
+    font-size: 20px;
+    color: black;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 100%;
+    right:40%;
+    margin: auto;
+    z-index: 10;
+    border-radius: 5px;
+    line-height: 30px;
+    background-color:#eceff1 ;
+    cursor: pointer;
+}
+.btn-share:hover{
+    background-color: white;
+}
+input.post-title{
+    display:block;
+    width: 800px;
+    height: 50px;
+    text-align:center;
+    line-height: 50px;
+
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 10%;
+   /* left: 50%;
+    right: 0;
+    margin-left: -400px;*/
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:#eceff1 ;
+
+}
+
+.posts-detail{
+   color: black;
+    margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

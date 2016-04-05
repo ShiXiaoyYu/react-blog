@@ -1,0 +1,811 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\ASUS\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '--userconfig=C:\\Users\\ASUS\\.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--cache=C:\\Users\\ASUS\\.cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   '--node-gyp=C:\\Users\\ASUS\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\node-gyp\\bin\\node-gyp.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'isomorphic-fetch',
+1 verbose cli   'es6-promise' ]
+2 info using npm@2.14.22
+3 info using node@v4.3.2
+4 verbose install initial load of C:\Users\ASUS\Desktop\rblg\package.json
+5 warn package.json wp@1.0.0 No description
+6 warn package.json wp@1.0.0 No repository field.
+7 warn package.json wp@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\babel-core\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\babel-loader\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\babel-preset-es2015\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\babel-preset-react\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\babel-preset-stage-0\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\body-parser\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\bootstrap\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\connect-flash\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\connect-mongo\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\css-loader\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\draft-js\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\expand-range\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\express\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\express-session\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\html-webpack-plugin\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\jquery\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\marked\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\moment\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\mongodb\package.json
+27 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\node-sass\package.json
+28 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\react\package.json
+29 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\react-dom\package.json
+30 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\react-redux\package.json
+31 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\react-router\package.json
+32 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\redux\package.json
+33 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\redux-devtools\package.json
+34 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\style-loader\package.json
+35 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\webpack\package.json
+36 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\webpack-dev-middleware\package.json
+37 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\webpack-dev-server\package.json
+38 verbose installManyTop reading scoped package data from C:\Users\ASUS\Desktop\rblg\node_modules\webpack-hot-middleware\package.json
+39 info package.json connect-flash@0.1.1 No license field.
+40 info package.json webpack-dev-middleware@1.5.1 No license field.
+41 info package.json expand-range@1.8.1 license should be a valid SPDX license expression
+42 verbose readDependencies loading dependencies from C:\Users\ASUS\Desktop\rblg\package.json
+43 silly cache add args [ 'isomorphic-fetch', null ]
+44 verbose cache add spec isomorphic-fetch
+45 silly cache add args [ 'es6-promise', null ]
+46 verbose cache add spec es6-promise
+47 silly cache add parsed spec Result {
+47 silly cache add   raw: 'isomorphic-fetch',
+47 silly cache add   scope: null,
+47 silly cache add   name: 'isomorphic-fetch',
+47 silly cache add   rawSpec: '',
+47 silly cache add   spec: 'latest',
+47 silly cache add   type: 'tag' }
+48 silly addNamed isomorphic-fetch@latest
+49 verbose addNamed "latest" is being treated as a dist-tag for isomorphic-fetch
+50 info addNameTag [ 'isomorphic-fetch', 'latest' ]
+51 silly mapToRegistry name isomorphic-fetch
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npm.taobao.org/
+54 silly mapToRegistry uri https://registry.npm.taobao.org/isomorphic-fetch
+55 verbose addNameTag registry:https://registry.npm.taobao.org/isomorphic-fetch not in flight; fetching
+56 silly cache add parsed spec Result {
+56 silly cache add   raw: 'es6-promise',
+56 silly cache add   scope: null,
+56 silly cache add   name: 'es6-promise',
+56 silly cache add   rawSpec: '',
+56 silly cache add   spec: 'latest',
+56 silly cache add   type: 'tag' }
+57 silly addNamed es6-promise@latest
+58 verbose addNamed "latest" is being treated as a dist-tag for es6-promise
+59 info addNameTag [ 'es6-promise', 'latest' ]
+60 silly mapToRegistry name es6-promise
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npm.taobao.org/
+63 silly mapToRegistry uri https://registry.npm.taobao.org/es6-promise
+64 verbose addNameTag registry:https://registry.npm.taobao.org/es6-promise not in flight; fetching
+65 verbose request uri https://registry.npm.taobao.org/es6-promise
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 23:21:09
+68 verbose request id 3be543a56c2ba81e
+69 verbose etag "8148-Xo8AuaI6SK6ceF4MFN3XWw"
+70 http request GET https://registry.npm.taobao.org/es6-promise
+71 verbose request uri https://registry.npm.taobao.org/isomorphic-fetch
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 23:21:10
+74 verbose etag "92ad-2wmSD6hEWIxwM5FrkUJnzA"
+75 http request GET https://registry.npm.taobao.org/isomorphic-fetch
+76 http 304 https://registry.npm.taobao.org/es6-promise
+77 verbose headers { date: 'Thu, 31 Mar 2016 15:21:29 GMT',
+77 verbose headers   connection: 'keep-alive',
+77 verbose headers   etag: '"8148-Xo8AuaI6SK6ceF4MFN3XWw"',
+77 verbose headers   'x-readtime': '31' }
+78 silly get cb [ 304,
+78 silly get   { date: 'Thu, 31 Mar 2016 15:21:29 GMT',
+78 silly get     connection: 'keep-alive',
+78 silly get     etag: '"8148-Xo8AuaI6SK6ceF4MFN3XWw"',
+78 silly get     'x-readtime': '31' } ]
+79 verbose etag https://registry.npm.taobao.org/es6-promise from cache
+80 verbose get saving es6-promise to C:\Users\ASUS\.cnpm\registry.npm.taobao.org\es6-promise\.cache.json
+81 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+82 silly addNameTag next cb for es6-promise with tag latest
+83 silly addNamed es6-promise@3.1.2
+84 verbose addNamed "3.1.2" is a plain semver version for es6-promise
+85 silly mapToRegistry name es6-promise
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npm.taobao.org/
+88 silly mapToRegistry uri https://registry.npm.taobao.org/es6-promise
+89 verbose addRemoteTarball https://registry.npm.taobao.org/es6-promise/download/es6-promise-3.1.2.tgz not in flight; adding
+90 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/es6-promise/download/es6-promise-3.1.2.tgz',
+90 verbose addRemoteTarball   '795e25ceb47f7babb263d151afbedd92d18e6a07' ]
+91 info retry fetch attempt 1 at 23:21:10
+92 info attempt registry request try #1 at 23:21:10
+93 http fetch GET https://registry.npm.taobao.org/es6-promise/download/es6-promise-3.1.2.tgz
+94 http fetch 200 https://registry.npm.taobao.org/es6-promise/download/es6-promise-3.1.2.tgz
+95 silly fetchAndShaCheck shasum 795e25ceb47f7babb263d151afbedd92d18e6a07
+96 verbose addTmpTarball C:\Users\ASUS\AppData\Local\Temp\npm-11740-cbdf959a\registry.npm.taobao.org\es6-promise\download\es6-promise-3.1.2.tgz not in flight; adding
+97 verbose addTmpTarball already have metadata; skipping unpack for es6-promise@3.1.2
+98 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+99 silly cache afterAdd es6-promise@3.1.2
+100 verbose afterAdd C:\Users\ASUS\.cnpm\es6-promise\3.1.2\package\package.json not in flight; writing
+101 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+102 verbose afterAdd C:\Users\ASUS\.cnpm\es6-promise\3.1.2\package\package.json written
+103 http 200 https://registry.npm.taobao.org/isomorphic-fetch
+104 verbose headers { date: 'Thu, 31 Mar 2016 15:21:29 GMT',
+104 verbose headers   'content-type': 'application/json; charset=utf-8',
+104 verbose headers   'content-length': '37607',
+104 verbose headers   connection: 'keep-alive',
+104 verbose headers   etag: '"92e7-e841jpFFqNa7I8gR3NbeaA"',
+104 verbose headers   'x-readtime': '31' }
+105 silly get cb [ 200,
+105 silly get   { date: 'Thu, 31 Mar 2016 15:21:29 GMT',
+105 silly get     'content-type': 'application/json; charset=utf-8',
+105 silly get     'content-length': '37607',
+105 silly get     connection: 'keep-alive',
+105 silly get     etag: '"92e7-e841jpFFqNa7I8gR3NbeaA"',
+105 silly get     'x-readtime': '31' } ]
+106 verbose get saving isomorphic-fetch to C:\Users\ASUS\.cnpm\registry.npm.taobao.org\isomorphic-fetch\.cache.json
+107 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+108 silly addNameTag next cb for isomorphic-fetch with tag latest
+109 silly addNamed isomorphic-fetch@2.2.1
+110 verbose addNamed "2.2.1" is a plain semver version for isomorphic-fetch
+111 silly cache afterAdd isomorphic-fetch@2.2.1
+112 verbose afterAdd C:\Users\ASUS\.cnpm\isomorphic-fetch\2.2.1\package\package.json not in flight; writing
+113 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+114 verbose afterAdd C:\Users\ASUS\.cnpm\isomorphic-fetch\2.2.1\package\package.json written
+115 silly install resolved [ { name: 'es6-promise',
+115 silly install resolved     namespace: 'es6-promise',
+115 silly install resolved     version: '3.1.2',
+115 silly install resolved     description: 'A lightweight library that provides tools for organizing asynchronous code',
+115 silly install resolved     main: 'dist/es6-promise.js',
+115 silly install resolved     directories: { lib: 'lib' },
+115 silly install resolved     files: [ 'dist', 'lib', '!dist/test' ],
+115 silly install resolved     devDependencies:
+115 silly install resolved      { brfs: '0.0.8',
+115 silly install resolved        'broccoli-es6-module-transpiler': '^0.5.0',
+115 silly install resolved        'broccoli-jshint': '^1.1.1',
+115 silly install resolved        'broccoli-merge-trees': '^1.1.1',
+115 silly install resolved        'broccoli-replace': '^0.2.0',
+115 silly install resolved        'broccoli-stew': '^1.2.0',
+115 silly install resolved        'broccoli-uglify-js': '^0.1.3',
+115 silly install resolved        'broccoli-watchify': '^0.2.0',
+115 silly install resolved        'ember-cli': '2.3.0-beta.1',
+115 silly install resolved        'ember-publisher': '0.0.7',
+115 silly install resolved        'git-repo-version': '0.0.3',
+115 silly install resolved        json3: '^3.3.2',
+115 silly install resolved        mocha: '^1.20.1',
+115 silly install resolved        'promises-aplus-tests-phantom': '^2.1.0-revise',
+115 silly install resolved        'release-it': '0.0.10' },
+115 silly install resolved     scripts:
+115 silly install resolved      { build: 'ember build',
+115 silly install resolved        'build:production': 'ember build --environment production',
+115 silly install resolved        start: 'ember s',
+115 silly install resolved        test: 'ember test',
+115 silly install resolved        'test:server': 'ember test --server',
+115 silly install resolved        'test:node': 'ember build && mocha ./dist/test/browserify',
+115 silly install resolved        lint: 'jshint lib',
+115 silly install resolved        prepublish: 'ember build --environment production',
+115 silly install resolved        'dry-run-release': 'ember build --environment production && release-it --dry-run --non-interactive' },
+115 silly install resolved     repository:
+115 silly install resolved      { type: 'git',
+115 silly install resolved        url: 'git://github.com/jakearchibald/ES6-Promises.git' },
+115 silly install resolved     bugs: { url: 'https://github.com/jakearchibald/ES6-Promises/issues' },
+115 silly install resolved     browser: { vertx: false },
+115 silly install resolved     keywords: [ 'promises', 'futures' ],
+115 silly install resolved     author:
+115 silly install resolved      { name: 'Yehuda Katz, Tom Dale, Stefan Penner and contributors',
+115 silly install resolved        url: 'Conversion to ES6 API by Jake Archibald' },
+115 silly install resolved     license: 'MIT',
+115 silly install resolved     spm: { main: 'dist/es6-promise.js' },
+115 silly install resolved     gitHead: '4a0062ee0725bb2c992de2c9636fe97c666794d1',
+115 silly install resolved     homepage: 'https://github.com/jakearchibald/ES6-Promises#readme',
+115 silly install resolved     _id: 'es6-promise@3.1.2',
+115 silly install resolved     _shasum: '795e25ceb47f7babb263d151afbedd92d18e6a07',
+115 silly install resolved     _from: 'es6-promise@latest',
+115 silly install resolved     _npmVersion: '3.5.3',
+115 silly install resolved     _nodeVersion: '5.4.1',
+115 silly install resolved     _npmUser: { name: 'stefanpenner', email: 'stefan.penner@gmail.com' },
+115 silly install resolved     dist:
+115 silly install resolved      { shasum: '795e25ceb47f7babb263d151afbedd92d18e6a07',
+115 silly install resolved        size: 22602,
+115 silly install resolved        noattachment: false,
+115 silly install resolved        tarball: 'http://registry.npm.taobao.org/es6-promise/download/es6-promise-3.1.2.tgz' },
+115 silly install resolved     maintainers: [ [Object], [Object] ],
+115 silly install resolved     _npmOperationalInternal:
+115 silly install resolved      { host: 'packages-5-east.internal.npmjs.com',
+115 silly install resolved        tmp: 'tmp/es6-promise-3.1.2.tgz_1455383156542_0.32691872608847916' },
+115 silly install resolved     publish_time: 1455383159948,
+115 silly install resolved     _cnpm_publish_time: 1455383159948,
+115 silly install resolved     _resolved: 'https://registry.npm.taobao.org/es6-promise/download/es6-promise-3.1.2.tgz' },
+115 silly install resolved   { name: 'isomorphic-fetch',
+115 silly install resolved     version: '2.2.1',
+115 silly install resolved     description: 'Isomorphic WHATWG Fetch API, for Node & Browserify',
+115 silly install resolved     browser: 'fetch-npm-browserify.js',
+115 silly install resolved     main: 'fetch-npm-node.js',
+115 silly install resolved     scripts:
+115 silly install resolved      { files: 'find . -name \'*.js\' ! -path \'./node_modules/*\' ! -path \'./bower_components/*\'',
+115 silly install resolved        test: 'jshint `npm run -s files` && lintspaces -i js-comments -e .editorconfig `npm run -s files` && mocha' },
+115 silly install resolved     repository:
+115 silly install resolved      { type: 'git',
+115 silly install resolved        url: 'git+https://github.com/matthew-andrews/isomorphic-fetch.git' },
+115 silly install resolved     author: { name: 'Matt Andrews', email: 'matt@mattandre.ws' },
+115 silly install resolved     license: 'MIT',
+115 silly install resolved     bugs: { url: 'https://github.com/matthew-andrews/isomorphic-fetch/issues' },
+115 silly install resolved     homepage: 'https://github.com/matthew-andrews/isomorphic-fetch/issues',
+115 silly install resolved     dependencies: { 'node-fetch': '^1.0.1', 'whatwg-fetch': '>=0.10.0' },
+115 silly install resolved     devDependencies:
+115 silly install resolved      { chai: '^1.10.0',
+115 silly install resolved        'es6-promise': '^2.0.1',
+115 silly install resolved        jshint: '^2.5.11',
+115 silly install resolved        'lintspaces-cli': '0.0.4',
+115 silly install resolved        mocha: '^2.1.0',
+115 silly install resolved        nock: '^0.56.0',
+115 silly install resolved        'npm-prepublish': '^1.0.2' },
+115 silly install resolved     gitHead: '43437dc5b381e391b73522d71cea23fc72675154',
+115 silly install resolved     _id: 'isomorphic-fetch@2.2.1',
+115 silly install resolved     _shasum: '611ae1acf14f5e81f729507472819fe9733558a9',
+115 silly install resolved     _from: 'isomorphic-fetch@latest',
+115 silly install resolved     _npmVersion: '2.14.7',
+115 silly install resolved     _nodeVersion: '4.2.3',
+115 silly install resolved     _npmUser: { name: 'financial-times', email: 'strategic.products@ft.com' },
+115 silly install resolved     dist:
+115 silly install resolved      { shasum: '611ae1acf14f5e81f729507472819fe9733558a9',
+115 silly install resolved        size: 3308,
+115 silly install resolved        noattachment: false,
+115 silly install resolved        tarball: 'http://registry.npm.taobao.org/isomorphic-fetch/download/isomorphic-fetch-2.2.1.tgz' },
+115 silly install resolved     maintainers: [ [Object], [Object] ],
+115 silly install resolved     directories: {},
+115 silly install resolved     publish_time: 1452850062311,
+115 silly install resolved     _cnpm_publish_time: 1452850062311,
+115 silly install resolved     _resolved: 'https://registry.npm.taobao.org/isomorphic-fetch/download/isomorphic-fetch-2.2.1.tgz',
+115 silly install resolved     readme: 'ERROR: No README data found!' } ]
+116 info install es6-promise@3.1.2 into C:\Users\ASUS\Desktop\rblg
+117 info install isomorphic-fetch@2.2.1 into C:\Users\ASUS\Desktop\rblg
+118 info installOne es6-promise@3.1.2
+119 verbose installOne of es6-promise to C:\Users\ASUS\Desktop\rblg not in flight; installing
+120 verbose correctMkdir C:\Users\ASUS\.cnpm\_locks correctMkdir not in flight; initializing
+121 info installOne isomorphic-fetch@2.2.1
+122 verbose installOne of isomorphic-fetch to C:\Users\ASUS\Desktop\rblg not in flight; installing
+123 verbose correctMkdir C:\Users\ASUS\.cnpm\_locks correctMkdir already in flight; waiting
+124 verbose lock using C:\Users\ASUS\.cnpm\_locks\es6-promise-decb09f72f8ec531.lock for C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise
+125 verbose lock using C:\Users\ASUS\.cnpm\_locks\isomorphic-fetch-2f898489a7b38e54.lock for C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch
+126 silly install write writing es6-promise 3.1.2 to C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise
+127 silly install write writing isomorphic-fetch 2.2.1 to C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch
+128 verbose unbuild node_modules\es6-promise
+129 verbose unbuild node_modules\isomorphic-fetch
+130 silly gentlyRm C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise is being purged from base C:\Users\ASUS\Desktop\rblg
+131 verbose gentlyRm don't care about contents; nuking C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise
+132 silly gentlyRm C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch is being purged from base C:\Users\ASUS\Desktop\rblg
+133 verbose gentlyRm don't care about contents; nuking C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch
+134 verbose tar unpack C:\Users\ASUS\.cnpm\es6-promise\3.1.2\package.tgz
+135 verbose tar unpacking to C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise
+136 silly gentlyRm C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise is being purged
+137 verbose gentlyRm don't care about contents; nuking C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise
+138 verbose tar unpack C:\Users\ASUS\.cnpm\isomorphic-fetch\2.2.1\package.tgz
+139 verbose tar unpacking to C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch
+140 silly gentlyRm C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch is being purged
+141 verbose gentlyRm don't care about contents; nuking C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch
+142 silly gunzTarPerm modes [ '777', '666' ]
+143 silly gunzTarPerm modes [ '777', '666' ]
+144 silly gunzTarPerm extractEntry package.json
+145 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+146 silly gunzTarPerm extractEntry package.json
+147 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+148 silly gunzTarPerm extractEntry README.md
+149 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+150 silly gunzTarPerm extractEntry LICENSE
+151 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+152 silly gunzTarPerm extractEntry .npmignore
+153 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+154 silly gunzTarPerm extractEntry README.md
+155 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+156 silly gunzTarPerm extractEntry LICENSE
+157 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+158 silly gunzTarPerm extractEntry fetch-bower.js
+159 silly gunzTarPerm modified mode [ 'fetch-bower.js', 420, 438 ]
+160 silly gunzTarPerm extractEntry CHANGELOG.md
+161 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+162 silly gunzTarPerm extractEntry dist/es6-promise.js
+163 silly gunzTarPerm modified mode [ 'dist/es6-promise.js', 420, 438 ]
+164 silly gunzTarPerm extractEntry fetch-npm-browserify.js
+165 silly gunzTarPerm modified mode [ 'fetch-npm-browserify.js', 420, 438 ]
+166 silly gunzTarPerm extractEntry fetch-npm-node.js
+167 silly gunzTarPerm modified mode [ 'fetch-npm-node.js', 420, 438 ]
+168 silly gunzTarPerm extractEntry .travis.yml
+169 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+170 silly gunzTarPerm extractEntry .editorconfig
+171 silly gunzTarPerm modified mode [ '.editorconfig', 420, 438 ]
+172 silly gunzTarPerm extractEntry .jshintrc
+173 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+174 silly gunzTarPerm extractEntry bower.json
+175 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+176 silly gunzTarPerm extractEntry test/api.test.js
+177 silly gunzTarPerm modified mode [ 'test/api.test.js', 420, 438 ]
+178 verbose write writing to C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\package.json
+179 info preinstall isomorphic-fetch@2.2.1
+180 verbose readDependencies loading dependencies from C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\package.json
+181 silly prepareForInstallMany adding node-fetch@^1.0.1 from isomorphic-fetch dependencies
+182 silly prepareForInstallMany adding whatwg-fetch@>=0.10.0 from isomorphic-fetch dependencies
+183 verbose readDependencies loading dependencies from C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\package.json
+184 silly cache add args [ 'node-fetch@^1.0.1', null ]
+185 verbose cache add spec node-fetch@^1.0.1
+186 silly cache add args [ 'whatwg-fetch@>=0.10.0', null ]
+187 verbose cache add spec whatwg-fetch@>=0.10.0
+188 silly cache add parsed spec Result {
+188 silly cache add   raw: 'node-fetch@^1.0.1',
+188 silly cache add   scope: null,
+188 silly cache add   name: 'node-fetch',
+188 silly cache add   rawSpec: '^1.0.1',
+188 silly cache add   spec: '>=1.0.1 <2.0.0',
+188 silly cache add   type: 'range' }
+189 silly addNamed node-fetch@>=1.0.1 <2.0.0
+190 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for node-fetch
+191 silly addNameRange { name: 'node-fetch', range: '>=1.0.1 <2.0.0', hasData: false }
+192 silly mapToRegistry name node-fetch
+193 silly mapToRegistry using default registry
+194 silly mapToRegistry registry https://registry.npm.taobao.org/
+195 silly mapToRegistry uri https://registry.npm.taobao.org/node-fetch
+196 verbose addNameRange registry:https://registry.npm.taobao.org/node-fetch not in flight; fetching
+197 silly cache add parsed spec Result {
+197 silly cache add   raw: 'whatwg-fetch@>=0.10.0',
+197 silly cache add   scope: null,
+197 silly cache add   name: 'whatwg-fetch',
+197 silly cache add   rawSpec: '>=0.10.0',
+197 silly cache add   spec: '>=0.10.0',
+197 silly cache add   type: 'range' }
+198 silly addNamed whatwg-fetch@>=0.10.0
+199 verbose addNamed ">=0.10.0" is a valid semver range for whatwg-fetch
+200 silly addNameRange { name: 'whatwg-fetch', range: '>=0.10.0', hasData: false }
+201 silly mapToRegistry name whatwg-fetch
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npm.taobao.org/
+204 silly mapToRegistry uri https://registry.npm.taobao.org/whatwg-fetch
+205 verbose addNameRange registry:https://registry.npm.taobao.org/whatwg-fetch not in flight; fetching
+206 silly gunzTarPerm extractEntry dist/es6-promise.min.js
+207 silly gunzTarPerm modified mode [ 'dist/es6-promise.min.js', 420, 438 ]
+208 silly gunzTarPerm extractEntry lib/es6-promise.umd.js
+209 silly gunzTarPerm modified mode [ 'lib/es6-promise.umd.js', 420, 438 ]
+210 silly gunzTarPerm extractEntry lib/es6-promise/-internal.js
+211 silly gunzTarPerm modified mode [ 'lib/es6-promise/-internal.js', 420, 438 ]
+212 silly gunzTarPerm extractEntry lib/es6-promise/asap.js
+213 silly gunzTarPerm modified mode [ 'lib/es6-promise/asap.js', 420, 438 ]
+214 silly gunzTarPerm extractEntry lib/es6-promise/enumerator.js
+215 silly gunzTarPerm modified mode [ 'lib/es6-promise/enumerator.js', 420, 438 ]
+216 silly gunzTarPerm extractEntry lib/es6-promise/polyfill.js
+217 silly gunzTarPerm modified mode [ 'lib/es6-promise/polyfill.js', 420, 438 ]
+218 silly gunzTarPerm extractEntry lib/es6-promise/promise.js
+219 silly gunzTarPerm modified mode [ 'lib/es6-promise/promise.js', 420, 438 ]
+220 verbose request uri https://registry.npm.taobao.org/node-fetch
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 23:21:13
+223 verbose etag "78b7-lP0SAzlDQAMdLQgV8Yek+g"
+224 http request GET https://registry.npm.taobao.org/node-fetch
+225 verbose request uri https://registry.npm.taobao.org/whatwg-fetch
+226 verbose request no auth needed
+227 info attempt registry request try #1 at 23:21:13
+228 verbose etag "5480-HGZcrIggeryUVAdSpNR52w"
+229 http request GET https://registry.npm.taobao.org/whatwg-fetch
+230 silly gunzTarPerm extractEntry lib/es6-promise/then.js
+231 silly gunzTarPerm modified mode [ 'lib/es6-promise/then.js', 420, 438 ]
+232 silly gunzTarPerm extractEntry lib/es6-promise/utils.js
+233 silly gunzTarPerm modified mode [ 'lib/es6-promise/utils.js', 420, 438 ]
+234 silly gunzTarPerm extractEntry lib/es6-promise/promise/all.js
+235 silly gunzTarPerm modified mode [ 'lib/es6-promise/promise/all.js', 420, 438 ]
+236 silly gunzTarPerm extractEntry lib/es6-promise/promise/race.js
+237 silly gunzTarPerm modified mode [ 'lib/es6-promise/promise/race.js', 420, 438 ]
+238 silly gunzTarPerm extractEntry lib/es6-promise/promise/reject.js
+239 silly gunzTarPerm modified mode [ 'lib/es6-promise/promise/reject.js', 420, 438 ]
+240 silly gunzTarPerm extractEntry lib/es6-promise/promise/resolve.js
+241 silly gunzTarPerm modified mode [ 'lib/es6-promise/promise/resolve.js', 420, 438 ]
+242 verbose write writing to C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise\package.json
+243 info preinstall es6-promise@3.1.2
+244 verbose readDependencies loading dependencies from C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise\package.json
+245 verbose readDependencies loading dependencies from C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise\package.json
+246 silly install resolved []
+247 verbose about to build C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise
+248 info build C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise
+249 info linkStuff es6-promise@3.1.2
+250 silly linkStuff es6-promise@3.1.2 has C:\Users\ASUS\Desktop\rblg\node_modules as its parent node_modules
+251 verbose linkBins es6-promise@3.1.2
+252 verbose linkMans es6-promise@3.1.2
+253 verbose rebuildBundles es6-promise@3.1.2
+254 info install es6-promise@3.1.2
+255 info postinstall es6-promise@3.1.2
+256 verbose unlock done using C:\Users\ASUS\.cnpm\_locks\es6-promise-decb09f72f8ec531.lock for C:\Users\ASUS\Desktop\rblg\node_modules\es6-promise
+257 http 200 https://registry.npm.taobao.org/node-fetch
+258 verbose headers { date: 'Thu, 31 Mar 2016 15:21:32 GMT',
+258 verbose headers   'content-type': 'application/json; charset=utf-8',
+258 verbose headers   'content-length': '34313',
+258 verbose headers   connection: 'keep-alive',
+258 verbose headers   etag: '"8609-Uxc0TkbwTSeU0aTTdI+lxA"',
+258 verbose headers   'x-readtime': '33' }
+259 silly get cb [ 200,
+259 silly get   { date: 'Thu, 31 Mar 2016 15:21:32 GMT',
+259 silly get     'content-type': 'application/json; charset=utf-8',
+259 silly get     'content-length': '34313',
+259 silly get     connection: 'keep-alive',
+259 silly get     etag: '"8609-Uxc0TkbwTSeU0aTTdI+lxA"',
+259 silly get     'x-readtime': '33' } ]
+260 verbose get saving node-fetch to C:\Users\ASUS\.cnpm\registry.npm.taobao.org\node-fetch\.cache.json
+261 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+262 silly addNameRange number 2 { name: 'node-fetch', range: '>=1.0.1 <2.0.0', hasData: true }
+263 silly addNameRange versions [ 'node-fetch',
+263 silly addNameRange   [ '1.4.1',
+263 silly addNameRange     '1.4.0',
+263 silly addNameRange     '1.3.3',
+263 silly addNameRange     '1.3.2',
+263 silly addNameRange     '1.3.1',
+263 silly addNameRange     '1.3.0',
+263 silly addNameRange     '1.2.1',
+263 silly addNameRange     '1.2.0',
+263 silly addNameRange     '1.1.2',
+263 silly addNameRange     '1.1.1',
+263 silly addNameRange     '1.1.0',
+263 silly addNameRange     '1.0.6',
+263 silly addNameRange     '1.0.5',
+263 silly addNameRange     '1.0.4',
+263 silly addNameRange     '1.0.3',
+263 silly addNameRange     '1.0.2',
+263 silly addNameRange     '1.0.1',
+263 silly addNameRange     '1.0.0',
+263 silly addNameRange     '0.1.0' ] ]
+264 silly addNamed node-fetch@1.4.1
+265 verbose addNamed "1.4.1" is a plain semver version for node-fetch
+266 silly mapToRegistry name node-fetch
+267 silly mapToRegistry using default registry
+268 silly mapToRegistry registry https://registry.npm.taobao.org/
+269 silly mapToRegistry uri https://registry.npm.taobao.org/node-fetch
+270 verbose addRemoteTarball https://registry.npm.taobao.org/node-fetch/download/node-fetch-1.4.1.tgz not in flight; adding
+271 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/node-fetch/download/node-fetch-1.4.1.tgz',
+271 verbose addRemoteTarball   'f50a3a98a586c434e9a63984c97127eb33c09145' ]
+272 info retry fetch attempt 1 at 23:21:13
+273 info attempt registry request try #1 at 23:21:13
+274 http fetch GET https://registry.npm.taobao.org/node-fetch/download/node-fetch-1.4.1.tgz
+275 http fetch 200 https://registry.npm.taobao.org/node-fetch/download/node-fetch-1.4.1.tgz
+276 silly fetchAndShaCheck shasum f50a3a98a586c434e9a63984c97127eb33c09145
+277 verbose addTmpTarball C:\Users\ASUS\AppData\Local\Temp\npm-11740-cbdf959a\registry.npm.taobao.org\node-fetch\download\node-fetch-1.4.1.tgz not in flight; adding
+278 verbose addTmpTarball already have metadata; skipping unpack for node-fetch@1.4.1
+279 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+280 silly cache afterAdd node-fetch@1.4.1
+281 verbose afterAdd C:\Users\ASUS\.cnpm\node-fetch\1.4.1\package\package.json not in flight; writing
+282 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+283 verbose afterAdd C:\Users\ASUS\.cnpm\node-fetch\1.4.1\package\package.json written
+284 info retry will retry, error on last attempt: Error: read ECONNRESET
+285 info attempt registry request try #2 at 05:06:05
+286 verbose etag "5480-HGZcrIggeryUVAdSpNR52w"
+287 http request GET https://registry.npm.taobao.org/whatwg-fetch
+288 http 304 https://registry.npm.taobao.org/whatwg-fetch
+289 verbose headers { date: 'Fri, 01 Apr 2016 00:05:44 GMT',
+289 verbose headers   connection: 'keep-alive',
+289 verbose headers   etag: '"5480-HGZcrIggeryUVAdSpNR52w"',
+289 verbose headers   'x-readtime': '35' }
+290 silly get cb [ 304,
+290 silly get   { date: 'Fri, 01 Apr 2016 00:05:44 GMT',
+290 silly get     connection: 'keep-alive',
+290 silly get     etag: '"5480-HGZcrIggeryUVAdSpNR52w"',
+290 silly get     'x-readtime': '35' } ]
+291 verbose etag https://registry.npm.taobao.org/whatwg-fetch from cache
+292 verbose get saving whatwg-fetch to C:\Users\ASUS\.cnpm\registry.npm.taobao.org\whatwg-fetch\.cache.json
+293 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+294 silly addNameRange number 2 { name: 'whatwg-fetch', range: '>=0.10.0', hasData: true }
+295 silly addNameRange versions [ 'whatwg-fetch',
+295 silly addNameRange   [ '0.11.0',
+295 silly addNameRange     '0.10.1',
+295 silly addNameRange     '0.10.0',
+295 silly addNameRange     '0.9.0',
+295 silly addNameRange     '0.8.2',
+295 silly addNameRange     '0.8.1',
+295 silly addNameRange     '0.8.0',
+295 silly addNameRange     '0.7.0',
+295 silly addNameRange     '0.6.1',
+295 silly addNameRange     '0.6.0',
+295 silly addNameRange     '0.5.0' ] ]
+296 silly addNamed whatwg-fetch@0.11.0
+297 verbose addNamed "0.11.0" is a plain semver version for whatwg-fetch
+298 silly cache afterAdd whatwg-fetch@0.11.0
+299 verbose afterAdd C:\Users\ASUS\.cnpm\whatwg-fetch\0.11.0\package\package.json not in flight; writing
+300 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+301 verbose afterAdd C:\Users\ASUS\.cnpm\whatwg-fetch\0.11.0\package\package.json written
+302 silly install resolved [ { name: 'node-fetch',
+302 silly install resolved     version: '1.4.1',
+302 silly install resolved     description: 'A light-weight module that brings window.fetch to node.js and io.js',
+302 silly install resolved     main: 'index.js',
+302 silly install resolved     scripts:
+302 silly install resolved      { test: 'mocha test/test.js',
+302 silly install resolved        report: 'istanbul cover _mocha -- -R spec test/test.js',
+302 silly install resolved        coverage: 'istanbul cover _mocha --report lcovonly -- -R spec test/test.js && cat ./coverage/lcov.info | coveralls' },
+302 silly install resolved     repository:
+302 silly install resolved      { type: 'git',
+302 silly install resolved        url: 'git+https://github.com/bitinn/node-fetch.git' },
+302 silly install resolved     keywords: [ 'fetch', 'http', 'promise' ],
+302 silly install resolved     author: { name: 'David Frank' },
+302 silly install resolved     license: 'MIT',
+302 silly install resolved     bugs: { url: 'https://github.com/bitinn/node-fetch/issues' },
+302 silly install resolved     homepage: 'https://github.com/bitinn/node-fetch',
+302 silly install resolved     devDependencies:
+302 silly install resolved      { bluebird: '^3.3.4',
+302 silly install resolved        chai: '^3.5.0',
+302 silly install resolved        'chai-as-promised': '^5.2.0',
+302 silly install resolved        coveralls: '^2.11.2',
+302 silly install resolved        'form-data': '^1.0.0-rc1',
+302 silly install resolved        istanbul: '^0.4.2',
+302 silly install resolved        mocha: '^2.1.0',
+302 silly install resolved        parted: '^0.1.1',
+302 silly install resolved        promise: '^7.1.1',
+302 silly install resolved        resumer: '0.0.0' },
+302 silly install resolved     dependencies: { encoding: '^0.1.11', 'is-stream': '^1.0.1' },
+302 silly install resolved     gitHead: '98b167c35d4465bdff1c5760ad9676142e3eefc6',
+302 silly install resolved     _id: 'node-fetch@1.4.1',
+302 silly install resolved     _shasum: 'f50a3a98a586c434e9a63984c97127eb33c09145',
+302 silly install resolved     _from: 'node-fetch@>=1.0.1 <2.0.0',
+302 silly install resolved     _npmVersion: '3.7.3',
+302 silly install resolved     _nodeVersion: '5.9.0',
+302 silly install resolved     _npmUser: { name: 'bitinn', email: 'bitinn@gmail.com' },
+302 silly install resolved     maintainers: [ [Object] ],
+302 silly install resolved     dist:
+302 silly install resolved      { shasum: 'f50a3a98a586c434e9a63984c97127eb33c09145',
+302 silly install resolved        size: 14907,
+302 silly install resolved        noattachment: false,
+302 silly install resolved        tarball: 'http://registry.npm.taobao.org/node-fetch/download/node-fetch-1.4.1.tgz' },
+302 silly install resolved     _npmOperationalInternal:
+302 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+302 silly install resolved        tmp: 'tmp/node-fetch-1.4.1.tgz_1458718398432_0.22000137832947075' },
+302 silly install resolved     directories: {},
+302 silly install resolved     publish_time: 1458718398873,
+302 silly install resolved     _cnpm_publish_time: 1458718398873,
+302 silly install resolved     _resolved: 'https://registry.npm.taobao.org/node-fetch/download/node-fetch-1.4.1.tgz' },
+302 silly install resolved   { name: 'whatwg-fetch',
+302 silly install resolved     description: 'A window.fetch polyfill.',
+302 silly install resolved     version: '0.11.0',
+302 silly install resolved     main: 'fetch.js',
+302 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/github/fetch.git' },
+302 silly install resolved     licenses: [ [Object] ],
+302 silly install resolved     devDependencies:
+302 silly install resolved      { bower: '1.3.8',
+302 silly install resolved        chai: '1.10.0',
+302 silly install resolved        jshint: '2.8.0',
+302 silly install resolved        'mocha-phantomjs': '3.5.2',
+302 silly install resolved        mocha: '2.1.0',
+302 silly install resolved        phantomjs: '1.9.19' },
+302 silly install resolved     files: [ 'LICENSE', 'fetch.js' ],
+302 silly install resolved     gitHead: '989a1e8132e9adb4c4e973875ad043ff7219fc5a',
+302 silly install resolved     bugs: { url: 'https://github.com/github/fetch/issues' },
+302 silly install resolved     homepage: 'https://github.com/github/fetch#readme',
+302 silly install resolved     _id: 'whatwg-fetch@0.11.0',
+302 silly install resolved     scripts: {},
+302 silly install resolved     _shasum: '46b1d18d0aa99955971ef1a2f5aac506add28815',
+302 silly install resolved     _from: 'whatwg-fetch@>=0.10.0',
+302 silly install resolved     _npmVersion: '3.3.12',
+302 silly install resolved     _nodeVersion: '5.4.0',
+302 silly install resolved     _npmUser: { name: 'mislav', email: 'mislav.marohnic@gmail.com' },
+302 silly install resolved     dist:
+302 silly install resolved      { shasum: '46b1d18d0aa99955971ef1a2f5aac506add28815',
+302 silly install resolved        size: 6037,
+302 silly install resolved        noattachment: false,
+302 silly install resolved        tarball: 'http://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-0.11.0.tgz' },
+302 silly install resolved     maintainers: [ [Object], [Object] ],
+302 silly install resolved     directories: {},
+302 silly install resolved     publish_time: 1453181946560,
+302 silly install resolved     _cnpm_publish_time: 1453181946560,
+302 silly install resolved     _resolved: 'https://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-0.11.0.tgz',
+302 silly install resolved     readme: 'ERROR: No README data found!' } ]
+303 info install node-fetch@1.4.1 into C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch
+304 info install whatwg-fetch@0.11.0 into C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch
+305 info installOne node-fetch@1.4.1
+306 verbose installOne of node-fetch to C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch not in flight; installing
+307 verbose correctMkdir C:\Users\ASUS\.cnpm\_locks correctMkdir not in flight; initializing
+308 info installOne whatwg-fetch@0.11.0
+309 verbose installOne of whatwg-fetch to C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch not in flight; installing
+310 verbose correctMkdir C:\Users\ASUS\.cnpm\_locks correctMkdir not in flight; initializing
+311 verbose lock using C:\Users\ASUS\.cnpm\_locks\node-fetch-c4d64163e3446d0a.lock for C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\node-fetch
+312 verbose lock using C:\Users\ASUS\.cnpm\_locks\whatwg-fetch-95e5d019b64e89bb.lock for C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch
+313 silly install write writing node-fetch 1.4.1 to C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\node-fetch
+314 silly install write writing whatwg-fetch 0.11.0 to C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch
+315 verbose unbuild node_modules\isomorphic-fetch\node_modules\whatwg-fetch
+316 silly gentlyRm C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch is being purged from base C:\Users\ASUS\Desktop\rblg
+317 verbose gentlyRm don't care about contents; nuking C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch
+318 verbose tar unpack C:\Users\ASUS\.cnpm\whatwg-fetch\0.11.0\package.tgz
+319 verbose tar unpacking to C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch
+320 silly gentlyRm C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch is being purged
+321 verbose gentlyRm don't care about contents; nuking C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch
+322 silly gunzTarPerm modes [ '777', '666' ]
+323 silly gunzTarPerm extractEntry package.json
+324 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+325 verbose unbuild node_modules\isomorphic-fetch\node_modules\node-fetch
+326 silly gentlyRm C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\node-fetch is being purged from base C:\Users\ASUS\Desktop\rblg
+327 verbose gentlyRm don't care about contents; nuking C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\node-fetch
+328 verbose tar unpack C:\Users\ASUS\.cnpm\node-fetch\1.4.1\package.tgz
+329 verbose tar unpacking to C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\node-fetch
+330 silly gentlyRm C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\node-fetch is being purged
+331 verbose gentlyRm don't care about contents; nuking C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\node-fetch
+332 silly gunzTarPerm modes [ '777', '666' ]
+333 silly gunzTarPerm extractEntry package.json
+334 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+335 silly gunzTarPerm extractEntry README.md
+336 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+337 silly gunzTarPerm extractEntry LICENSE
+338 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+339 silly gunzTarPerm extractEntry .npmignore
+340 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+341 silly gunzTarPerm extractEntry README.md
+342 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+343 silly gunzTarPerm extractEntry fetch.js
+344 silly gunzTarPerm modified mode [ 'fetch.js', 420, 438 ]
+345 silly gunzTarPerm extractEntry index.js
+346 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+347 silly gunzTarPerm extractEntry CHANGELOG.md
+348 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+349 silly gunzTarPerm extractEntry LICENSE.md
+350 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+351 silly gunzTarPerm extractEntry LIMITS.md
+352 silly gunzTarPerm modified mode [ 'LIMITS.md', 420, 438 ]
+353 silly gunzTarPerm extractEntry lib/body.js
+354 silly gunzTarPerm modified mode [ 'lib/body.js', 420, 438 ]
+355 silly gunzTarPerm extractEntry lib/headers.js
+356 silly gunzTarPerm modified mode [ 'lib/headers.js', 420, 438 ]
+357 silly gunzTarPerm extractEntry lib/request.js
+358 silly gunzTarPerm modified mode [ 'lib/request.js', 420, 438 ]
+359 silly gunzTarPerm extractEntry lib/response.js
+360 silly gunzTarPerm modified mode [ 'lib/response.js', 420, 438 ]
+361 silly gunzTarPerm extractEntry .travis.yml
+362 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+363 silly gunzTarPerm extractEntry test/server.js
+364 silly gunzTarPerm modified mode [ 'test/server.js', 420, 438 ]
+365 silly gunzTarPerm extractEntry test/test.js
+366 silly gunzTarPerm modified mode [ 'test/test.js', 420, 438 ]
+367 verbose write writing to C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch\package.json
+368 info preinstall whatwg-fetch@0.11.0
+369 verbose readDependencies loading dependencies from C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch\package.json
+370 verbose readDependencies loading dependencies from C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch\package.json
+371 silly install resolved []
+372 verbose about to build C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch
+373 info build C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch
+374 info linkStuff whatwg-fetch@0.11.0
+375 silly linkStuff whatwg-fetch@0.11.0 has C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules as its parent node_modules
+376 verbose linkBins whatwg-fetch@0.11.0
+377 verbose linkMans whatwg-fetch@0.11.0
+378 verbose rebuildBundles whatwg-fetch@0.11.0
+379 info install whatwg-fetch@0.11.0
+380 info postinstall whatwg-fetch@0.11.0
+381 verbose unlock done using C:\Users\ASUS\.cnpm\_locks\whatwg-fetch-95e5d019b64e89bb.lock for C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\whatwg-fetch
+382 verbose write writing to C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\node-fetch\package.json
+383 info preinstall node-fetch@1.4.1
+384 verbose readDependencies loading dependencies from C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\node-fetch\package.json
+385 silly prepareForInstallMany adding encoding@^0.1.11 from node-fetch dependencies
+386 silly prepareForInstallMany adding is-stream@^1.0.1 from node-fetch dependencies
+387 verbose readDependencies loading dependencies from C:\Users\ASUS\Desktop\rblg\node_modules\isomorphic-fetch\node_modules\node-fetch\package.json
+388 silly cache add args [ 'encoding@^0.1.11', null ]
+389 verbose cache add spec encoding@^0.1.11
+390 silly cache add args [ 'is-stream@^1.0.1', null ]
+391 verbose cache add spec is-stream@^1.0.1
+392 silly cache add parsed spec Result {
+392 silly cache add   raw: 'encoding@^0.1.11',
+392 silly cache add   scope: null,
+392 silly cache add   name: 'encoding',
+392 silly cache add   rawSpec: '^0.1.11',
+392 silly cache add   spec: '>=0.1.11 <0.2.0',
+392 silly cache add   type: 'range' }
+393 silly addNamed encoding@>=0.1.11 <0.2.0
+394 verbose addNamed ">=0.1.11 <0.2.0" is a valid semver range for encoding
+395 silly addNameRange { name: 'encoding', range: '>=0.1.11 <0.2.0', hasData: false }
+396 silly mapToRegistry name encoding
+397 silly mapToRegistry using default registry
+398 silly mapToRegistry registry https://registry.npm.taobao.org/
+399 silly mapToRegistry uri https://registry.npm.taobao.org/encoding
+400 verbose addNameRange registry:https://registry.npm.taobao.org/encoding not in flight; fetching
+401 silly cache add parsed spec Result {
+401 silly cache add   raw: 'is-stream@^1.0.1',
+401 silly cache add   scope: null,
+401 silly cache add   name: 'is-stream',
+401 silly cache add   rawSpec: '^1.0.1',
+401 silly cache add   spec: '>=1.0.1 <2.0.0',
+401 silly cache add   type: 'range' }
+402 silly addNamed is-stream@>=1.0.1 <2.0.0
+403 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for is-stream
+404 silly addNameRange { name: 'is-stream', range: '>=1.0.1 <2.0.0', hasData: false }
+405 silly mapToRegistry name is-stream
+406 silly mapToRegistry using default registry
+407 silly mapToRegistry registry https://registry.npm.taobao.org/
+408 silly mapToRegistry uri https://registry.npm.taobao.org/is-stream
+409 verbose addNameRange registry:https://registry.npm.taobao.org/is-stream not in flight; fetching
+410 verbose request uri https://registry.npm.taobao.org/is-stream
+411 verbose request no auth needed
+412 info attempt registry request try #1 at 08:05:38
+413 http request GET https://registry.npm.taobao.org/is-stream
+414 http 200 https://registry.npm.taobao.org/is-stream
+415 verbose headers { date: 'Fri, 01 Apr 2016 00:05:57 GMT',
+415 verbose headers   'content-type': 'application/json; charset=utf-8',
+415 verbose headers   'content-length': '3799',
+415 verbose headers   connection: 'keep-alive',
+415 verbose headers   etag: '"ed7-jG4wAlt8wRWsaL1EShYjoA"',
+415 verbose headers   'x-readtime': '19' }
+416 silly get cb [ 200,
+416 silly get   { date: 'Fri, 01 Apr 2016 00:05:57 GMT',
+416 silly get     'content-type': 'application/json; charset=utf-8',
+416 silly get     'content-length': '3799',
+416 silly get     connection: 'keep-alive',
+416 silly get     etag: '"ed7-jG4wAlt8wRWsaL1EShYjoA"',
+416 silly get     'x-readtime': '19' } ]
+417 verbose get saving is-stream to C:\Users\ASUS\.cnpm\registry.npm.taobao.org\is-stream\.cache.json
+418 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+419 silly addNameRange number 2 { name: 'is-stream', range: '>=1.0.1 <2.0.0', hasData: true }
+420 silly addNameRange versions [ 'is-stream', [ '1.0.1', '1.0.0' ] ]
+421 silly addNamed is-stream@1.0.1
+422 verbose addNamed "1.0.1" is a plain semver version for is-stream
+423 silly mapToRegistry name is-stream
+424 silly mapToRegistry using default registry
+425 silly mapToRegistry registry https://registry.npm.taobao.org/
+426 silly mapToRegistry uri https://registry.npm.taobao.org/is-stream
+427 verbose addRemoteTarball https://registry.npm.taobao.org/is-stream/download/is-stream-1.0.1.tgz not in flight; adding
+428 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/is-stream/download/is-stream-1.0.1.tgz',
+428 verbose addRemoteTarball   'b44ce45b1f0c3df583f6b5debf84dcf9743ac8b5' ]
+429 verbose request uri https://registry.npm.taobao.org/encoding
+430 verbose request no auth needed
+431 info attempt registry request try #1 at 08:05:38
+432 verbose etag "3402-NOgKrqxN03b5FnGxK0k0yQ"
+433 http request GET https://registry.npm.taobao.org/encoding
+434 http 304 https://registry.npm.taobao.org/encoding
+435 verbose headers { date: 'Fri, 01 Apr 2016 00:05:57 GMT',
+435 verbose headers   connection: 'keep-alive',
+435 verbose headers   etag: '"3402-NOgKrqxN03b5FnGxK0k0yQ"',
+435 verbose headers   'x-readtime': '22' }
+436 silly get cb [ 304,
+436 silly get   { date: 'Fri, 01 Apr 2016 00:05:57 GMT',
+436 silly get     connection: 'keep-alive',
+436 silly get     etag: '"3402-NOgKrqxN03b5FnGxK0k0yQ"',
+436 silly get     'x-readtime': '22' } ]
+437 verbose etag https://registry.npm.taobao.org/encoding from cache
+438 verbose get saving encoding to C:\Users\ASUS\.cnpm\registry.npm.taobao.org\encoding\.cache.json
+439 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+440 silly addNameRange number 2 { name: 'encoding', range: '>=0.1.11 <0.2.0', hasData: true }
+441 silly addNameRange versions [ 'encoding',
+441 silly addNameRange   [ '0.1.12',
+441 silly addNameRange     '0.1.11',
+441 silly addNameRange     '0.1.10',
+441 silly addNameRange     '0.1.9',
+441 silly addNameRange     '0.1.8',
+441 silly addNameRange     '0.1.7',
+441 silly addNameRange     '0.1.6',
+441 silly addNameRange     '0.1.5',
+441 silly addNameRange     '0.1.4',
+441 silly addNameRange     '0.1.3',
+441 silly addNameRange     '0.1.2',
+441 silly addNameRange     '0.1.1' ] ]
+442 silly addNamed encoding@0.1.12
+443 verbose addNamed "0.1.12" is a plain semver version for encoding
+444 info retry fetch attempt 1 at 08:05:39
+445 info attempt registry request try #1 at 08:05:39
+446 http fetch GET https://registry.npm.taobao.org/is-stream/download/is-stream-1.0.1.tgz
+447 silly cache afterAdd encoding@0.1.12
+448 verbose afterAdd C:\Users\ASUS\.cnpm\encoding\0.1.12\package\package.json not in flight; writing
+449 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+450 verbose afterAdd C:\Users\ASUS\.cnpm\encoding\0.1.12\package\package.json written
+451 info retry will retry, error on last attempt: Error: read ECONNRESET
+452 info attempt registry request try #2 at 12:11:23
+453 http fetch GET https://registry.npm.taobao.org/is-stream/download/is-stream-1.0.1.tgz
+454 http fetch 200 https://registry.npm.taobao.org/is-stream/download/is-stream-1.0.1.tgz
+455 silly fetchAndShaCheck shasum b44ce45b1f0c3df583f6b5debf84dcf9743ac8b5
+456 verbose addTmpTarball C:\Users\ASUS\AppData\Local\Temp\npm-11740-cbdf959a\registry.npm.taobao.org\is-stream\download\is-stream-1.0.1.tgz not in flight; adding
+457 verbose addTmpTarball already have metadata; skipping unpack for is-stream@1.0.1
+458 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+459 silly cache afterAdd is-stream@1.0.1
+460 verbose afterAdd C:\Users\ASUS\.cnpm\is-stream\1.0.1\package\package.json not in flight; writing
+461 verbose correctMkdir C:\Users\ASUS\.cnpm correctMkdir not in flight; initializing
+462 verbose stack TypeError: Cannot read property 'emit' of null
+462 verbose stack     at TLSSocket.connectionErrorHandler (C:\Users\ASUS\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\request\request.js:82:24)
+462 verbose stack     at TLSSocket.g (events.js:260:16)
+462 verbose stack     at emitOne (events.js:82:20)
+462 verbose stack     at TLSSocket.emit (events.js:169:7)
+462 verbose stack     at emitErrorNT (net.js:1255:8)
+462 verbose stack     at nextTickCallbackWith2Args (node.js:437:9)
+462 verbose stack     at process._tickCallback (node.js:351:17)
+463 verbose cwd C:\Users\ASUS\Desktop\rblg
+464 error Windows_NT 6.3.9600
+465 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\ASUS\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js" "--userconfig=C:\\Users\\ASUS\\.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--cache=C:\\Users\\ASUS\\.cnpm" "--registry=https://registry.npm.taobao.org" "--node-gyp=C:\\Users\\ASUS\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\node-gyp\\bin\\node-gyp.js" "install" "--save" "isomorphic-fetch" "es6-promise"
+466 error node v4.3.2
+467 error npm  v2.14.22
+468 error Cannot read property 'emit' of null
+469 error If you need help, you may report this error at:
+469 error     <https://github.com/npm/npm/issues>
+470 verbose exit [ 1, true ]
